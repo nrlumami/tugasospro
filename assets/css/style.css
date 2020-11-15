@@ -1,0 +1,748 @@
+@font-face {
+    font-family: 'century-gothic-reguler';
+    src: url(../font/GOTHIC.TTF);
+}
+@font-face {
+    font-family: 'century-gothic-Bold';
+    src: url(../font/GOTHICB.TTF);
+}
+@font-face {
+    font-family: 'cooper-black';
+    src: url(../font/COOPBL.TTF);
+}
+@font-face {
+    font-family: 'times-new-roman-reguler';
+    src: url(../font/times.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    width: 100%;
+}
+
+body #header {
+    position: relative;
+    width: 1350px;
+    height: 700px;
+
+    background: #ffffff;
+}
+body #header #Profile h2 {
+    position: absolute;
+    width: 100px;
+    height: 42px;
+    left: 34px;
+    top: 19px;
+
+    font-family: 'century-gothic-Bold';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 42px;
+
+    color: #054747;
+}
+
+body #header #Home h2 {
+    position: absolute;
+    width: 99px;
+    height: 42px;
+    left: 712px;
+    top: 19px;
+    
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 42px;
+    
+    
+    color: #054747;
+}
+
+body #header #About h2 {
+    position: absolute;
+width: 80px;
+height: 33px;
+left: 820px;
+top: 19px;
+    
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 42px;
+    
+    
+    color: #30B5C7;
+}
+
+body #header #Skill h2 {
+    position: absolute;
+    width: 50px;
+    height: 33px;
+    left: 925px;
+    top: 23px;
+    
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    
+    color: #30B5C7;
+}
+
+body #header #Contact h2 {
+    position: absolute;
+    width: 106px;
+    height: 33px;
+    left: 1000px;
+    top: 24px;
+    
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 33px;
+    
+    color: #30B5C7;
+}
+
+body #header #Education h2 {
+    position: absolute;
+    width: 132px;
+    height: 33px;
+    left: 1140px;
+    top: 25px;
+    
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 33px;
+    
+    color: #30B5C7;
+}
+
+main #nurul-umami h1 {
+    position: absolute;
+width: 543px;
+height: 348px;
+left: 34px;
+top: 120px;
+
+font-family: 'cooper-black';
+font-style: normal;
+font-weight: 900;
+font-size: 100px;
+line-height: 100px;
+
+color: #054747;
+}
+
+main #info p {
+position: absolute;
+width: 415px;
+height: 201px;
+left: 34px;
+top: 400px;
+
+font-family: 'century-gothic-reguler';
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 37px;
+
+color: #30B5C7;
+
+}
+
+main #info a {
+    font-family: 'century-gothic-reguler';
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 37px;
+
+text-decoration: none;
+color: royalblue;
+}
+
+main #instagram .iconify {
+    position: absolute;
+    width: 40px;
+    height: auto;
+    left: 34px;
+    top: 580px;
+
+
+color: #054747;
+}
+
+main #email .iconify {
+    position: absolute;
+    width: 40px;
+    height: auto;
+    left: 92px;
+    top: 580px;
+
+
+color: #054747;
+}
+
+main #facebook .iconify {
+    position: absolute;
+    width: 40px;
+    height: auto;
+    left: 144px;
+    top: 580px;
+
+
+color: #054747;
+}
+
+main #kotak {
+position: absolute;
+width: 500px;
+height: 388px;
+left: 700px;
+top: 25%;
+
+background: #2EB0B7;
+border-radius: 40px;
+}
+
+main #kotak #kotak-dalam {
+position: absolute;
+width: 450px;
+height: 338px;
+left: 25px;
+top: 25px;
+
+background-image: url(/assets/image/fotoprofil.jpg);
+background-size: cover;
+background-position: center;
+border-radius: 40px;
+}
+
+main #about {
+position: relative;
+width: 1350px;
+height: 1024px;
+
+background-image: url(/assets/image/fotobackground.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+main #about #kotak {
+position: absolute;
+width: 1200px;
+height: 534px;
+left: 5.5%;
+top: 37px;
+
+background: #B2EFFC;
+}
+
+main #about #kotak #persegipanjang {
+position: absolute;
+width: 1200px;
+height: 64px;
+left: 0px;
+top: 205px;
+    
+background: #135656;
+}
+
+main #about #kotak #persegipanjang #aboutme h2{
+    position: absolute;
+    width: 240px;
+    height: 45px;
+    left: 40%;
+    top : 8px;
+    
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 48px;
+    
+    color: #FFFFFF;
+    }
+
+    main #about #kotak #persegipanjang #infoku p{
+        position: absolute;
+        width: 1142px;
+        height: 240px;
+        left: 33px;
+        top: 100px;
+        
+        font-family: Times New Roman;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 42px;
+        line-height: 48px;
+        text-align: center;
+        
+        color: #053436;
+    }
+main #about #kotak-2 {
+position: absolute;
+width: 1350px;
+height: 421px;
+left: 0px;
+top: 603px;
+
+background: #FFFFFF;
+}
+
+main #about #kotak-2 h2 {
+    position: absolute;
+width: 152px;
+height: 55px;
+left: 43%;
+top: 15px;
+
+font-family: Cooper Black;
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 55px;
+
+
+color: #135656;
+}
+
+main #kotak-2 #kotakicon1 {
+position: absolute;
+width: 209px;
+height: 209px;
+left: 13%;
+top: 150px;
+
+background: #B2EFFC;
+border-radius: 30px; 
+}
+
+main #kotak-2 #kotakicon1 #network .iconify {
+    position: absolute;
+    width: 108px;
+    height: 86px;
+    left: 50px;
+    top: 30px;
+
+    color: #051b1b ;
+    }
+
+    main #kotak-2 #kotakicon1 p{
+        position: absolute;
+        width: 141px;
+        height: 82px;
+        left: 35px;
+        top: 115px;
+        
+        font-family: Times New Roman;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 41px;
+        text-align: center;
+        
+        color: #135656;
+        }
+
+main #kotak-2 #kotakicon2 {
+    position: absolute;
+    width: 289px;
+    height: 289px;
+    left: 37%;
+    top: 113.5px;
+    
+    background: #135656;
+    box-shadow: 0px 0px 60px #135656;
+    border-radius: 30px;
+    }
+
+    main #kotak-2 #kotakicon2 #keyboard .iconify {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    left: 45px;
+    top: 5px;
+
+    color: #B2EFFC;
+    }
+
+    main #kotak-2 #kotakicon2 p {
+        position: absolute;
+        width: 133px;
+        height: 94px;
+        left: 73px;
+        top: 170px;
+        
+        font-family: Times New Roman;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 41px;
+        line-height: 47px;
+        text-align: center;
+        
+        color: #B2EFFC;
+        }
+
+main #kotak-2 #kotakicon3 {
+    position: absolute;
+    width: 209px;
+    height: 209px;
+    left: 65%;
+    top: 150px;
+        
+    background: #B2EFFC;
+    border-radius: 30px;
+    }
+
+    main #kotak-2 #kotakicon3 #server .iconify {
+        position: absolute;
+        width: 108px;
+        height: 86px;
+        left: 50px;
+        top: 30px;
+    
+        color: #051b1b ;
+        }
+
+        main #kotak-2 #kotakicon3 p {
+            position: absolute;
+            width: 120px;
+            height: 82px;
+            left: 45px;
+            top: 120px;
+            
+            font-family: Times New Roman;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 41px;
+            text-align: center;
+            
+            color: #135656;;
+            }
+
+        main #education {
+            position: relative;
+            width: 1350px;
+            height: 625px;
+
+    background: #135656;
+}
+
+main #education #lingkar-1 {
+    position: absolute;
+    width: 152px;
+    height: 153px;
+    left: 308px;
+    top: 46px;
+    border-radius: 50%;
+
+    background: #044945;
+}
+
+main #education #lingkar-2 {
+    position: absolute;
+    width: 152px;
+    height: 153px;
+    left: 360px;
+    top: 168px;
+    border-radius: 50%;
+
+    background: #198079;
+}
+
+main #education #lingkar-3 {
+    position: absolute;
+    width: 151px;
+    height: 153px;
+    left: 309px;
+    top: 291px;
+    border-radius: 50%;
+
+    background: #29DBD1;
+}
+
+main #education #lingkar-4 {
+    position: absolute;
+    width: 151px;
+    height: 153px;
+    left: 181px;
+    top: 324px;
+    border-radius: 50%;
+
+    background: #84D1D1;
+}
+
+main #education #lingkar-atas {
+    position: absolute;
+    width: 372px;
+    height: 372px;
+    left: 88px;
+    top: 58px;
+    border-radius: 50%;
+
+    background: #F1F4F4;
+}
+
+main #education #lingkar-atas h2 {
+    position: absolute;
+    width: 327px;
+    height: 133px;
+    left: 34px;
+    top: 110px;
+
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+
+    color: #135656;
+}
+
+main #education #lingkar-atas p {
+    position: absolute;
+width: 67px;
+height: 48px;
+left: 225px;
+top: 135px;
+
+font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 59px;
+color: #1FBDB4;
+}
+
+main #education #lingkaran1 {
+    position: absolute;
+width: 99px;
+height: 99px;
+left: 580px;
+top: 27px;
+border-radius: 50%;
+
+background: #F1F4F4;
+}
+
+main #education #lingkaran1 p {
+    position: absolute;
+width: 22px;
+height: 41px;
+left: 37px;
+top: 30px;
+
+font-family: 'cooper-black';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+
+color: #135656;
+}
+
+main #education #lingkaran2 {
+    position: absolute;
+width: 99px;
+height: 99px;
+left: 658px;
+top: 178px;
+border-radius: 50%;
+
+background: #F1F4F4;
+}
+
+main #education #lingkaran2 p {
+    position: absolute;
+width: 22px;
+height: 41px;
+left: 37px;
+top: 28px;
+border-radius: 50%;
+
+font-family: 'cooper-black';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+
+color: #135656;
+}
+
+main #education #lingkaran3 {
+    position: absolute;
+width: 99px;
+height: 99px;
+left: 575px;
+top: 337px;
+border-radius: 50%;
+
+background: #F1F4F4;
+}
+
+main #education #lingkaran3 p{
+    position: absolute;
+width: 22px;
+height: 41px;
+left: 38px;
+top: 28px;
+
+font-family: 'cooper-black';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+
+color: #135656;
+}
+
+main #education #lingkaran4 {
+    position: absolute;
+width: 99px;
+height: 99px;
+left: 463px;
+top: 475px;
+border-radius: 50%;
+
+background: #F1F4F4;
+}
+
+main #education #lingkaran4 p {
+    position: absolute;
+width: 22px;
+height: 41px;
+left: 38px;
+top: 28px;
+
+font-family: 'cooper-black';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+
+color: #135656;
+}
+
+main #education #kotak1 {
+    position: absolute;
+width: 456px;
+height: 60px;
+left: 626px;
+top: 42px;
+
+background: #044945;
+border-radius: 50px;
+border: 5px solid #ffffff;
+}
+
+main #education #kotak1 p {
+    font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+
+padding-left: 60px;
+padding-top: 8px;
+color: #F1F4F4;
+}
+main #education #kotak2 {
+    position: absolute;
+width: 456px;
+height: 60px;
+left: 704px;
+top: 195px;
+
+background: #198079;
+border-radius: 50px;
+border: 5px solid #ffffff;
+}
+main #education #kotak2 p {
+    font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+
+padding-left: 60px;
+padding-top: 8px;
+color: #F1F4F4;
+}
+
+main #education #kotak3 {
+    position: absolute;
+    width: 456px;
+    height: 60px;
+    left: 621px;
+    top: 352px;
+    
+    background: #1FBDB4;
+    border-radius: 50px;
+    border: 5px solid #ffffff;
+}
+
+main #education #kotak3 p {
+    font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+
+padding-left: 60px;
+padding-top: 8px;
+color: #F1F4F4;
+}
+main #education #kotak4 {
+    position: absolute;
+    width: 496px;
+    height: 60px;
+    left: 509px;
+    top: 492px;
+    
+    background: #3EE1D8;
+    border-radius: 50px;
+    border: 5px solid #ffffff;
+}
+main #education #kotak4 p {
+    font-family: Century Gothic;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+
+width: 100%;
+padding-left: 60px;
+padding-top: 8px;
+color: #F1F4F4;
+}
+
+footer #nama {
+    height: 30px;
+}
+
+footer #nama p {
+    font-family: 'cooper-black';
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+
+    padding-top: 20px;
+}
+
+footer #copyright {
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+}
+
+footer #copyright p {
+    font-size: 18px;
+    color: black;
+    font-family: 'century-gothic-reguler';
+}
